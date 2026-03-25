@@ -20,7 +20,7 @@ function AboutMeBody() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-amber-100 leading-relaxed text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl mx-auto lg:mx-0">
+            className="text-amber-50 leading-relaxed text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl mx-auto lg:mx-0">
             Sou apaixonado por tecnologia e inovação, e aos 18 anos, estou construindo minha trajetória profissional
             unindo conhecimento prático e teórico nas áreas de Inteligência Artificial, Machine Learning e
             Desenvolvimento Web. Minha jornada é marcada pela busca constante de aprendizado: já concluí um curso
