@@ -84,7 +84,7 @@ const BrowserHeader = () => {
               href="#"
               onClick={handleDownloadCurriculum}
               className="bg-gray-700 hover:bg-red-600 text-white font-semibold px-5 py-2 rounded-lg text-center transition-all duration-300">
-              My Curriculum
+              Meu Currículo
             </a>
           </div>
         </div>
