@@ -36,7 +36,7 @@ function CopyButton() {
 function HomeBody() {
     return (
         <section id='home' className='bg-stone-950 min-h-screen w-full overflow-hidden'>
-            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-12 lg:gap-8 xl:gap-16 max-w-350 mx-auto px-6 md:px-8 lg:px-12 xl:px-16 py-12 md:py-16 lg:py-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-12 lg:gap-6 xl:gap-16 max-w-350 mx-auto px-6 md:px-8 lg:px-12 xl:px-16 py-12 md:py-16 lg:py-20">
                 
                 {/* Left side - Text Content */}
                 <div className='flex-1 text-center lg:text-left max-w-2xl lg:max-w-none 2xl:ml-30'>
@@ -91,7 +91,7 @@ function HomeBody() {
                         <img 
                             src={profilePhoto} 
                             alt="Profile Image" 
-                            className="w-64 sm:w-80 md:w-96 lg:w-100 xl:w-117 2xl:w-100"
+                            className="w-64 sm:w-80 md:w-96 lg:w-100 xl:w-90 2xl:w-100"
                         />
                     </div>
                 </motion.div>
