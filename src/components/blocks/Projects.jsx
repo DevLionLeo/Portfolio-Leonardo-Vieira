@@ -1,5 +1,6 @@
 import DinoGameProject from "../projectCards/DinoGameProject";
 import NetflixCard from "../projectCards/NetflixCard";
+import PythonAssistantCard from "../projectCards/PythonAssistantCard";
 import { motion } from 'motion/react';
 
 function Projects() {
@@ -15,9 +16,10 @@ function Projects() {
                     Projects
                 </motion.h1>
                 
-                <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-10 xl:gap-12">
+                <div className="flex flex-wrap flex-col lg:flex-row items-center justify-center gap-8 lg:gap-10 xl:gap-12">
                     <DinoGameProject />
                     <NetflixCard />
+                    <PythonAssistantCard />
                 </div>
             </div>
         </section>
