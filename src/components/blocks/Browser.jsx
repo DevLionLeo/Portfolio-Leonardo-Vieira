@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import useDownload from '../../hooks/useDownload';
-import curriculumFile from '../../../public/Currículo Leonardo Vieira.pdf';
+import curriculumFile from '../../../public/Curriculo Leonardo Vieira.pdf';
 
 const BrowserHeader = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ const BrowserHeader = () => {
   };
 
   const handleDownloadCurriculum = () => {
-    downloadFromUrl(curriculumFile, 'Currículo Leonardo Vieira.pdf');
+    downloadFromUrl(curriculumFile, 'Curriculo Leonardo Vieira.pdf');
   };
 
   const navLinks = [
