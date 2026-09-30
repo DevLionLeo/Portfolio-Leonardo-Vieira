@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import valdirImage from "../../assets/valdir.png";
+import valdirImage from "../../assets/Valdir.png";
 
 function ValdirCard() {
     return (
