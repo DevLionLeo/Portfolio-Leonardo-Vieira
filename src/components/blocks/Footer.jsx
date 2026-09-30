@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +13,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/DevLionLeo', label: 'GitHub' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/leonardo-vieira-fullstack/', label: 'LinkedIn' },
-    
+    { icon: FaInstagram, href: 'https://www.instagram.com/dev_leonardovieira', label: 'Instagram' }
   ];
 
   return (

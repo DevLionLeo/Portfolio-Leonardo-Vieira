@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import profilePhoto from '../../assets/profile.png';
 import { motion } from 'motion/react';
-import { Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Github, Mail, Instagram } from 'lucide-react';
 import DownButton from '../buttons/DownButton';
 import SocialButton from '../buttons/SocialButton';
 
@@ -68,6 +68,16 @@ function HomeBody() {
                             <button className='p-4 bg-red-900 rounded-full hover:bg-rose-800 transition duration-300 cursor-pointer inline-block'>
                                 <a href="https://github.com/DevLionLeo">
                                     <Github className='text-amber-50  ' />
+                                </a>
+                            </button>
+                        </motion.button>
+
+                        <motion.button
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}>
+                            <button className='p-4 bg-red-900 rounded-full hover:bg-rose-800 transition duration-300 cursor-pointer inline-block'>
+                                <a href="https://www.instagram.com/dev_leonardovieira">
+                                    <Instagram className='text-amber-50  ' />
                                 </a>
                             </button>
                         </motion.button>
