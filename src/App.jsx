@@ -4,6 +4,7 @@ import HomeBody from './components/blocks/Home'
 import AboutMeBody from './components/blocks/AboutMeBody'
 import Projects from './components/blocks/Projects'
 import Footer from './components/blocks/Footer'
+import ProProjects from './components/blocks/ProProjects'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <HomeBody />
         <AboutMeBody />
         <Projects />
+        <ProProjects />
         <Footer />
       </body>
     </>

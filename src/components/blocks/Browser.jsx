@@ -59,7 +59,7 @@ const BrowserHeader = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="text-gray-700 hover:text-red-600 focus:outline-none transition-colors duration-300"
+              className="text-gray-400 hover:text-red-600 focus:outline-none transition-colors duration-300"
               aria-label="Toggle menu">
               {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </button>
